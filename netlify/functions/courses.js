@@ -160,8 +160,8 @@ exports.handler = async function(event) {
 
     // create an overall course review summary object
     let courseReviewSumObject={
-      numberOfCourseReviews: courseReviewCounter,
-      averageCourseReviewRating: courseRatingSum/courseReviewCounter
+      numCourseReviews: courseReviewCounter,
+      avgCourseRating: courseRatingSum/courseReviewCounter
     }
 
     // add the course review summary object to return
